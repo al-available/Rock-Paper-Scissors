@@ -11,13 +11,13 @@ function getComputerChoice() {
 
 function getHumanChoice() {
     let choice;
-    do {
+    
         choice = prompt("Rock, paper, or scissors? Choose one:").toLowerCase();
         if (choice === rock || choice === paper || choice === scissors) {
             return choice;
         }
         console.log("Wrong input. Please choose rock, paper, or scissors.");
-    } while (true);
+    
 }
 
 function playRound(humanChoice, computerChoice, scores) {
