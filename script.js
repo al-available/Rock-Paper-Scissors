@@ -157,7 +157,7 @@ function victor() {
 
         // Display winner
         if (playerScore >= 5) {
-            output.textContent = `Game Over! You win with ${playerScore} points!`;
+            output.textContent = `CONGRATULATIONS PRINCESS ❤️ You win with ${playerScore} points!`;
         } else {
             output.textContent = `Game Over! Computer wins with ${computerScore} points!`;
         }
