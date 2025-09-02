@@ -96,11 +96,12 @@ const rounds = document.createElement("p")
 rounds.classList.add("rounds")
 
 
+
 container.append(output, playerTally, computerTally,rounds);
 
-// Styling
-container.style.marginTop = "50px";
-output.style.fontSize = "50px";
+
+
+
 
 
 
@@ -154,7 +155,8 @@ function victor() {
 
         // Display winner
         if (playerScore >= 5) {
-            output.textContent = `CONGRATULATIONS PRINCESS ❤️ You win with ${playerScore} points!`;
+            
+            output.textContent = `CONGRATULATIONS🎊🥳 You win with ${playerScore} points!`;
         } else {
             output.textContent = `Game Over! Computer wins with ${computerScore} points!`;
         }
