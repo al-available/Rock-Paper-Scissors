@@ -109,10 +109,7 @@ let playerScore = 0;
 let computerScore = 0;
 let roundsPlayed = 0;
 
-// Initialize score display
-playerTally.textContent = `Player score: ${playerScore}`;
-computerTally.textContent = `Computer score: ${computerScore}`;
-rounds.textContent = `Rounds Played: ${roundsPlayed}`
+
 
 
 function getComputerChoice() {
